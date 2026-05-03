@@ -37,7 +37,7 @@
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/yourusername/coding-prep-international.git
+   git clone https://github.com/logiccrew/JsCode.git
 
 2. Browse by difficulty or topic
 
