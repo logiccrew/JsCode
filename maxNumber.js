@@ -1,3 +1,5 @@
+// First Way
+
 const maxNumber=(num)=>{
 
     let maxNum = [0]
@@ -9,3 +11,13 @@ const maxNumber=(num)=>{
     console.log(maxNum)
  }
  maxNumber([5,6,8,5,9,78,56])
+
+ // Second Way
+
+ const arr = [10, 5, 20, 8];
+
+const max = Math.max(...arr);
+
+console.log(max);
+
+
