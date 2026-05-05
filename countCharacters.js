@@ -1,6 +1,6 @@
 const countChars = (data) => {
     const splitData = []
-    let count = 0
+    let count = 1
     let repeatedData = {}
 
     for (i = 0; i < data.length; i++) {
@@ -22,15 +22,12 @@ const countChars = (data) => {
     console.log(splitData)
     console.log("Sorted:", splitData.join(""));
     for (l = 0; l < splitData.length; l++) {
+        console.log(count)
         if (splitData[l] === splitData[l + 1]) {
             count += 1;
-            repeatedData[splitData[l]] = count;
-              console.log(repeatedData)
-
         } else {
-
-            count = 1;
             repeatedData[splitData[l]] = count;
+            count = 1;
         }
     }
     console.log(repeatedData)
