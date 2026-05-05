@@ -21,14 +21,6 @@
 
 ---
 
-## 📂 Repository structure
-📁 beginner/ # Basic syntax, loops, arrays, strings
-📁 intermediate/ # Closures, promises, array methods, debounce
-📁 advanced/ # Deep clone, LRU cache, event emitter, throttling
-📁 expert/ # Streams, clustering, circuit breaker, worker threads
-📁 nodejs/ # Express, JWT, rate limiting, file uploads
-📁 i18n/ # Intl, currency, pluralization, time zones
-📁 dsa/ # Data structures & algorithms (coming soon)
 
 
 ---
