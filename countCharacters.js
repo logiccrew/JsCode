@@ -32,4 +32,4 @@ const countChars = (data) => {
     }
     console.log(repeatedData)
 }
-countChars("abbcnhmknjjduslkiasedcbbdcxyhiioihiki")
+countChars("aaaaallmsnkncoianviavocnc")

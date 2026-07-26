@@ -15,4 +15,4 @@ console.log(user.name)
         console.log("Something went wrong", error)
     }
 }
-getUser(1)
+getUser(0)
